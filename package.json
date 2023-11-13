@@ -1,0 +1,24 @@
+{
+  "name": "bde_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bde"
+  },
+  "author": "Kilian V.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-list-endpoints": "^6.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.2",
+    "sequelize": "^6.33.0",
+    "twilio": "^4.19.0"
+  }
+}
